@@ -6,20 +6,93 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-  <div class='body-wrapper'>
-    <%= render 'layouts/header' %>
-
+  <section id="home" name="home"></section>
+  <div id="headerwrap">
     <div class="container">
-      <div id='notice'>
-        <%= render 'layouts/flash', flash: flash %>
+      <div class="logo">
+        <%= image_tag 'logo.png' %>
       </div>
-      <%= yield %>
+      <br>
+      <div class="row">
+        <h1>MINIMAL THEME</h1>
+        <br>
+        <h3>Hello, I'm Carlos. I love design.</h3>
+        <br>
+        <br>
+        <div class="col-lg-6 col-lg-offset-3">
+        </div>
+      </div>
     </div>
   </div>
 
-  <%= render 'layouts/footer' %>
+  <section id="about" name="about"></section>
+  <div id="f">
+    <div class="container">
+      <div class="row">
+        <h3>ABOUT ME</h3>
+        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>A full time theme crafter based in Madrid, Spain. I love designing beautiful, clean and user-friendly interfaces for websites.</p>
+          <p>My passion is turning good ideas and products into eye-catching sites.</p>
+          <p>Sometimes I blog about design and web trends. Also I share links and my thoughts on <a href="http://twitter.com/BlackTie_co">Twitter</a>. Need a free handsome bootstrap theme? <a href="http://blacktie.co">Done!</a></p>
+          <p>I'm available for freelance jobs. Contact me now.</p>
+          <p><button type="button" class="btn btn-warning">I HAVE A FREELANCE JOB</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="portfolio" name="portfolio"></section>
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+        <h3>SOME PROJECTS</h3>
+        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="item active centered">
+                <%= image_tag 'c1.png', class: 'img-responsive' %>
+              </div>
+              <div class="item centered">
+                <%= image_tag 'c2.png', class: 'img-responsive' %>
+              </div>
+              <div class="item centered">
+                <%= image_tag 'c3.png', class: 'img-responsive' %>
+              </div>
+            </div>
+            <br>
+            <br>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="contact" name="contact"></section>
+  <div id="f">
+    <div class="container">
+      <div class="row">
+        <h3>CONTACT ME</h3>
+        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+        <div class="col-lg-6 col-lg-offset-3">
+          <p>Some Avenue, 987<br/>Madrid, Spain<br/>+34 8984-4343</p>
+          <p>iam@awesomemail.com</p>
+          <p><button type="button" class="btn btn-warning">YEAH! CONTACT ME NOW!</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

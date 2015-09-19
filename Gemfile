@@ -6,6 +6,7 @@ gem 'rails', '3.2.18'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
+gem 'activerecord-mysql2-adapter'
 gem 'devise'
 
 
@@ -40,3 +41,4 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "therubyracer"
 gem "less-rails"
+gem 'font-awesome-rails'
