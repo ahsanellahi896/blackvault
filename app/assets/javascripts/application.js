@@ -11,6 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
+//= require gmap3
+//= require main
+//= require respond.min
 //= require twitter/bootstrap
 //= require_tree .

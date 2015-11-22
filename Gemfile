@@ -41,3 +41,4 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem "therubyracer"
 gem "less-rails"
 gem 'font-awesome-rails'
+gem 'jquery-gmap3-rails'

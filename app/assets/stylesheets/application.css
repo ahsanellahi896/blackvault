@@ -10,5 +10,7 @@
  *
  *= require_self
  *= require font-awesome
+ *= require /lib/zocial
+ *= require common
  *= require_tree .
  */
