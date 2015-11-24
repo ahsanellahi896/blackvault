@@ -42,3 +42,4 @@ gem "therubyracer"
 gem "less-rails"
 gem 'font-awesome-rails'
 gem 'jquery-gmap3-rails'
+gem 'pg'
