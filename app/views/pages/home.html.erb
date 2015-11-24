@@ -53,7 +53,15 @@
               <br/>
             </div>
             <div class="slide-filter">
-              <%= video_tag "/assets/12469833.mp4", class: "bg-parallax parallaxize", autoplay: true, autobuffer: true, controls: true, loop: true, muted: true %>
+              <%= video_tag "/assets/12469833.mp4", class: "bg-parallax parallaxize video", id: "video" %>
+              <script>
+                jQuery( document ).ready(function($) {
+                  $('video').get(0).play()
+                  $('video').get(1).play()
+                  $('video').get(2).play()
+                  $('video').get(3).play()
+                });
+              </script>
             </div>
           </li>
           <li>
