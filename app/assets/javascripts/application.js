@@ -11,8 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require gmap3
 //= require main
 //= require respond.min
 //= require twitter/bootstrap
+//= require lib/jquery.superslides.min
 //= require_tree .
