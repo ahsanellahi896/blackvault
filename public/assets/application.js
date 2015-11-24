@@ -12895,13 +12895,6 @@ return jQuery;
 
 
 
-(function() {
-  jQuery(function() {
-    $("a[rel~=popover], .has-popover").popover();
-    return $("a[rel~=tooltip], .has-tooltip").tooltip();
-  });
-
-}).call(this);
 /*
  HTML5 Shiv v3.6.2pre | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 */
@@ -13048,7 +13041,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
 * This software may be used freely on commercial and non-commercial projects with attribution to the author/copyright holder.
 * Author: Patrick Kunka
 * Copyright 2012-2013 Patrick Kunka, Barrel LLC, All Rights Reserved
-* 
+*
 * http://mixitup.io
 */
 
@@ -13215,7 +13208,7 @@ var dp = jQuery;
 dp.noConflict();
 dp(document).ready(function() {
 
-    //SMOOTH SCROLL 
+    //SMOOTH SCROLL
     dp('.sscroll').bind('click.smoothscroll', function(e) {
         e.preventDefault();
         dp('html,body').animate({
@@ -13265,7 +13258,7 @@ dp(document).ready(function() {
     });
     // TOOTLTIP
     dp("[data-toggle='tooltip']").tooltip();
-    //  Responsive layout, resizing the items   
+    //  Responsive layout, resizing the items
     if (dp('.client-slider').length > 0) {
         dp('.client-slider').carouFredSel({
             responsive: true,
