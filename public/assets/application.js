@@ -13256,8 +13256,6 @@ dp(document).ready(function() {
         effect: "fadeOutIn",
         updateBefore: true
     });
-    // TOOTLTIP
-    dp("[data-toggle='tooltip']").tooltip();
     //  Responsive layout, resizing the items
     if (dp('.client-slider').length > 0) {
         dp('.client-slider').carouFredSel({
