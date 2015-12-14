@@ -51,10 +51,15 @@ video {
   margin-top: -10px;
 }
 
+.list li:before {
+  content: '\f192' !important;
+  color: #e74c3c !important;
+}
+
 .sub-ul li:before {
   margin-left: 40px;
-  content: "\f192" !important;
-  color: #e74c3c !important;
+  content: '\f105' !important;
+  color: #fff !important;
 }
 
 .navbar-brand img {
@@ -66,6 +71,7 @@ video {
     position: relative;
     overflow: hidden;
 }
+
 .btn-file input[type=file] {
     position: absolute;
     top: 0;
@@ -80,4 +86,42 @@ video {
     background: white;
     cursor: inherit;
     display: block;
+}
+
+.submit {
+  background: #fff !important;
+  color: #1A1E22 !important;
+}
+
+.submit:hover {
+  background: #1A1E22 !important;
+  color: #fff !important;
+}
+
+#leadership .teams {
+  color: #85939b !important;
+  background: #1E2226 !important;
+  border: 1px solid #fff !important;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+#leadership h3 {
+  color: #85939b !important;
+}
+
+#leadership .social a {
+    color: #85939b !important;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+    line-height: 28px;
+    font-size: 16px;
+    border: 1px solid #85939b !important;
+}
+
+#leadership .social a:hover {
+    background: #fff !important;
+    color: #000 !important;
 }

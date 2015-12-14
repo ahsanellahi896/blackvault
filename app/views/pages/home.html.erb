@@ -19,21 +19,16 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a class="sscroll" href="#about">About Us</a>
-            <ul class="left-sub-ul">
+            <!-- <ul class="left-sub-ul">
               <li class="left-sub-li">Our Partners</li>
-            </ul>
+            </ul> -->
           </li>
           <li><a class="sscroll" href="#culture">Culture & Principles</a></li>
           <li><a class="sscroll" href="#investment">Investment Process</a></li>
-          <li><a class="sscroll" href="#leadership">Leadership</a>
-            <ul class="left-sub-ul">
-              <li class="left-sub-li">Omesh Francis</li>
-              <li class="left-sub-li">Nima Karamlou</li>
-            </ul>
-          </li>
+          <li><a class="sscroll" href="#leadership">Leadership</a></li>
           <li><a class="sscroll" href="#careers">Careers</a></li>
           <li><a class="" href="#contact">Contact Us</a></li>
-          <li><a class="sscroll" href="#client">Client Access</a></li>
+          <li><a class="sscroll" href="#client">Investor Access</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -116,12 +111,12 @@
             Investments is a hedge fund startup out of Silicon Valley, that in true Silicon Valley fashion, aims
             to bring ethics and morality back in to the finance industry.  We recognize the importance of
             manager-investor relationships and the need for them to be a good fit for each other. It is
-            because of this that we are very selective in choosing our clients. However, once taken on, our
-            clients can rest easy knowing that their managers are working hard to make sure that clients’
+            because of this that we are very selective in choosing our investors. However, once taken on, our
+            investors can rest easy knowing that their managers are working hard to make sure that investors’
             assets are well protected and the client’s aims for growth are achieved. We also believe in
-            making sure our clients are as comfortable as possible, and we do everything we can to make
-            the on-boarding process as smooth as possible. Once on board, clients can directly contact
-            their managers. Our goal is to put our clients’ mind at ease as they know that their assets are
+            making sure our investors are as comfortable as possible, and we do everything we can to make
+            the on-boarding process as smooth as possible. Once on board, investors can directly contact
+            their managers. Our goal is to put our investors’ mind at ease as they know that their assets are
             protected even during the harshest economic or market conditions. Additionally, where other
             funds typically look at specific sectors or markets and may be extremely localized to a certain
             country or region, our fund looks for value across all corners of the globe from developed
@@ -180,16 +175,16 @@
           <p>
             We grew out of Silicon Valley with one aim, to bring back morals and ethics to the
             finance industry. Our company built its foundation out of a frustration from watching
-            asset managers acting selfishly and hurting their clients tremendously. Consequently,
+            asset managers acting selfishly and hurting their investors tremendously. Consequently,
             we consider it safe to say that we are one of the most, if not the most, ethical and
             principled-laden financial management firms out there. Our foundation is built upon
-            ethics in which the clients’ best interests and our managers’ aims are aligned. We are
+            ethics in which the investors’ best interests and our managers’ aims are aligned. We are
             extremely opposed to what we call “reckless aggressiveness”, in which a fund may post
             exorbitant returns one year and tout it as a major success and then fail to address the
             fact that their aggressiveness also led to losses during a larger number of years. While
             this has become the norm in the asset management industry, our fund values
             responsible investment and asset management. Rather than posting exorbitant returns,
-            we aim to deliver consistent returns to our clients, ensuring long-term performance as
+            we aim to deliver consistent returns to our investors, ensuring long-term performance as
             opposed to possible investments in other overly aggressive funds. Our goal at
             BlackVault Investments is simple: beat the market while protecting investors’ assets. Our
             creed is investor interests trump all. This gives us the confidence to open our doors
@@ -202,11 +197,11 @@
     <!-- END PORTFOLIO -->
 
     <!-- BEGIN TESTIMONIAL -->
-    <section id="investment" class="testimonial">
+    <section id="investment" class="services">
       <div class="row">
         <div class="col-md-12">
           <div class="header-content">
-            <h3>Investment Process</h3>
+            <h2>Investment Process</h2>
           </div>
         </div>
 
@@ -262,16 +257,16 @@
                   <h3>Omesh Francis</h3>
                   <span>Chief Executive Officer</span>
                   <p>
-                    Mr. Omesh Francis helped spearhead the founding and growth of BlackVault
-                    Investments and currently serves in it as Chief Executive Officer. He also
-                    oversees the firm’s aggregate portfolio and investment decision as managing
+                    Mr. Omesh Francis headed the launch and growth of BlackVault
+                    Investments and currently serves in it as Chief Executive Officer. He
+                    supervises the firm’s aggregate portfolio and investment decision as managing
                     partner. He specializes in business strategy and development and manages the
                     firm’s alternative investment portfolio.
                   </p>
                   <p>
-                    Before BlackVault Investments, Mr. Francis successfully built a number of
+                    Before BlackVault Investments, Mr. Francis successfully launched a number of
                     companies in a diverse range of industries from entertainment and media to
-                    logistics and retail. He is also co-founder and director of the Merritt College
+                    logistics and retail. He is the co-founder and director of the Merritt College
                     Investors organization where he helped develop an agenda and lead instruction
                     regarding alternative investments.
                   </p>
@@ -300,9 +295,9 @@
                   <span>Chief Investment Officer</span>
                   <p>
                     Nima N. Karamlou is the Chief Investment Officer and Co-Founder of BlackVault. Mr.
-                    Karamlou has been involved in all phases of the firm’s developments and currently oversees
+                    Karamlou has been involved in all phases of the firm’s developments and currently manages
                     the firm’s aggregate portfolio. He has been the principal director of investment decision, and
-                    oversights in global equities, credit, derivatives, commodity markets, and alternative
+                    oversees in global equities, credit, derivatives, commodity markets, and alternative
                     investments.
                   </p>
                   <p>
@@ -376,14 +371,14 @@
 
             <div class="form-group row">
               <div class="col-lg-11">
-                <span class="btn btn-default btn-file">
+                <span class="btn btn-dark btn-file">
                   Choose File..
                   <%= file_field_tag(:attachment, required: true, accept: '.pdf') %>
                 </span>
               </div>
             </div>
             <br/>
-            <button type="submit" class="btn btn-dark big">Submit</button>
+            <button type="submit" class="btn btn-dark big submit">Submit</button>
           <% end %>
         </div>
       </div>
@@ -434,8 +429,15 @@
               </div>
             </div>
             <br/>
-            <button type="submit" class="btn btn-dark big">Send Mail</button>
+            <button type="submit" class="btn btn-dark big submit">Send Mail</button>
           <% end %>
+          <ul class='list'>
+            <li>
+              Existing investors, please contact your investor manager directly through any of
+              the means listed on your partnership agreement, or login to the investor portal on our
+              website.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -460,7 +462,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="header-content">
-            <h2>Client Access</h2>
+            <h2>Investor Access</h2>
           </div>
           <p>
             This portion of the website is by invitation only and solely for investors. Current
@@ -487,7 +489,7 @@
               </div>
             </div>
             <br/>
-            <button type="submit" class="btn btn-dark big">Sign In</button>
+            <button type="submit" class="btn btn-dark big submit">Sign In</button>
           <% end %>
         </div>
       </div>
