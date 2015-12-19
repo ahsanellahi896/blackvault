@@ -11,8 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require main
-//= require respond.min
 //= require twitter/bootstrap
-//= require lib/jquery.superslides.min
 //= require_tree .
