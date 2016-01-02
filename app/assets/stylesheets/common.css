@@ -7,6 +7,7 @@ li {
 }
 
 h2 {
+  font-family: Athelas;
   border-left: 3px solid #e74c3c;
   font-weight: 300;
   letter-spacing: 2px;
@@ -124,4 +125,8 @@ video {
 #leadership .social a:hover {
     background: #fff !important;
     color: #000 !important;
+}
+
+.description {
+  font-family: Cochin;
 }
