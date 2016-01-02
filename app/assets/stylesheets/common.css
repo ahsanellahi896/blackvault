@@ -7,7 +7,7 @@ li {
 }
 
 h2 {
-  font-family: Athelas;
+  font-family: Athelas !important;
   border-left: 3px solid #e74c3c;
   font-weight: 300;
   letter-spacing: 2px;
