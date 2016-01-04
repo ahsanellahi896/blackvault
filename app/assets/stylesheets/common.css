@@ -7,12 +7,16 @@ li {
 }
 
 h2 {
-  font-family: Athelas !important;
+  font-family: Cochin !important;
   border-left: 3px solid #e74c3c;
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-left: 20px;
+}
+
+h3 {
+  font-family: Cochin !important;
 }
 
 textarea {
@@ -23,8 +27,17 @@ video {
   height: initial !important;
 }
 
+.athelas {
+  font-family: Athelas !important;
+}
+
 .slide-text h1 {
   font-size: 50px;
+  font-family: Cochin !important;
+}
+
+.slide-text span {
+  font-family: Athelas !important;
 }
 
 .btn-primary {
@@ -141,4 +154,12 @@ video {
 
 #quote-slider span strong{
   font-family: Engravers MT;
+}
+
+.desc span {
+  font-weight: normal !important;
+}
+
+.ul-no-padding {
+  padding: 0 !important;
 }
