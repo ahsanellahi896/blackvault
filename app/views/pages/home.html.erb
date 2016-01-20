@@ -29,6 +29,7 @@
           <li><a class="sscroll" href="#careers">Careers</a></li>
           <li><a class="sscroll" href="#contact">Contact Us</a></li>
           <li><a class="sscroll" href="#client">Investor Access</a></li>
+          <li><%= link_to 'Disclaimer', disclaimer_path %></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -54,7 +55,6 @@
                   $('video').get(0).play()
                   $('video').get(1).play()
                   $('video').get(2).play()
-                  $('video').get(3).play()
                 });
               </script>
             </div>
@@ -62,21 +62,11 @@
           <li>
             <div class="slide-text">
               <h1>Our Goal</h1>
-              <span>Beat the market - protect investor assets</span>
+              <span>Beat the market - protect assets</span>
               <br/>
             </div>
             <div class="slide-filter">
               <%= video_tag "/assets/52879906.mp4", class: "bg-parallax parallaxize", autoplay: true, autobuffer: true, loop: true, muted: true %>
-            </div>
-          </li>
-          <li>
-            <div class="slide-text">
-              <h1>Our Creed</h1>
-              <span>Investor interests and peace of mind trumps all</span>
-              <br/>
-            </div>
-            <div class="slide-filter">
-              <%= video_tag "/assets/shutterstock_v671617.mov", class: "bg-parallax parallaxize", autoplay: true, autobuffer: true, loop: true, muted: true %>
             </div>
           </li>
           <li>
@@ -106,21 +96,7 @@
 
         <div class="col-md-12">
           <p class='description'>
-            Our company grew out of a frustration from watching asset management companies
-            making exorbitant profits while acting against the best interests of their investors. BlackVault
-            Investments is a hedge fund startup out of Silicon Valley, that in true Silicon Valley fashion, aims
-            to bring ethics and morality back in to the finance industry.  We recognize the importance of
-            manager-investor relationships and the need for them to be a good fit for each other. It is
-            because of this that we are very selective in choosing our investors. However, once taken on, our
-            investors can rest easy knowing that their managers are working hard to make sure that investors’
-            assets are well protected and the investor's aims for growth are achieved. We also believe in
-            making sure our investors are as comfortable as possible, and we do everything we can to make
-            the on-boarding process as smooth as possible. Once on board, investors can directly contact
-            their managers. Our goal is to put our investors’ mind at ease as they know that their assets are
-            protected even during the harshest economic or market conditions. Additionally, where other
-            funds typically look at specific sectors or markets and may be extremely localized to a certain
-            country or region, our fund looks for value across all corners of the globe from developed
-            markets such as the United States and Europe to emerging markets such as China and India.
+            Our company grew out of a frustration from watching some asset management companies making what some may consider exorbitant profits while acting in a manner that may be against the best interests of their investors. BlackVault Investments is an investment management firm startup out of Silicon Valley, that in true Silicon Valley fashion, aims to bring ethics and morality into the finance industry. We recognize the importance of manager-investor relationships and the need for them to be a good fit for each other. It is because of this that we are very selective in choosing our investors. We believe in making sure our investors are as comfortable as possible, and we do everything we can to make the on-boarding process as smooth as possible. Once on board, investors can directly contact our investment professionals. Our goal is to protect assets even during the harshest economic or market conditions. Additionally, our strategy does not look at specific sectors or markets and is not localized to a certain country or region. Instead, it looks for value across all corners of the globe from developed markets such as the United States and Europe to emerging markets such as China and India.
           </p>
         </div>
 
@@ -172,9 +148,7 @@
             <ul class='athelas'>
               <li>
                 <h3>
-                  Our company grew out of frustration from watching asset managers
-                  acting in their own interest while tremendously harming their
-                  investors’ assets
+                  Our company grew out of frustration from watching some asset managers acting in a manner that may not be in the best interests of their investors’
                 </h3>
                 <span>
                   &mdash;
@@ -183,9 +157,7 @@
               </li>
               <li>
                 <h3>
-                  Our fund values responsible investment and asset management as
-                  opposed to the “reckless aggressiveness” which has become the norm in
-                  the asset management industry
+                  Our fund values responsible investment and asset management as opposed to what we believe is “reckless aggressiveness” by some asset management firms
                 </h3>
                 <span>
                   &mdash;
@@ -209,23 +181,7 @@
 
         <div class="col-md-12 mg-bt-80">
           <p class='description'>
-            We grew out of Silicon Valley with one aim, to bring back morals and ethics to the
-            finance industry. Our company built its foundation out of a frustration from watching
-            asset managers acting selfishly and hurting their investors tremendously. Consequently,
-            we consider it safe to say that we are one of the most, if not the most, ethical and
-            principled-laden financial management firms out there. Our foundation is built upon
-            ethics in which the investors’ best interests and our managers’ aims are aligned. We are
-            extremely opposed to what we call “reckless aggressiveness”, in which a fund may post
-            exorbitant returns one year and tout it as a major success and then fail to address the
-            fact that their aggressiveness also led to losses during a larger number of years. While
-            this has become the norm in the asset management industry, our fund values
-            responsible investment and asset management. Rather than posting exorbitant returns,
-            we aim to deliver consistent returns to our investors, ensuring long-term performance as
-            opposed to possible investments in other overly aggressive funds. Our goal at
-            BlackVault Investments is simple: beat the market while protecting investors’ assets. Our
-            creed is investor interests trump all. This gives us the confidence to open our doors
-            completely to investors to communicate with their respective portfolio managers about
-            their asset’s performance at any given time.
+            We grew out of Silicon Valley with one aim: to bring morals and ethics to the finance industry. Our company built its foundation out of a frustration from watching some asset managers not acting in the best interests of their investors. Consequently, we consider ourselves an ethical and principled-laden financial management firm. Our foundation is built upon ethics in which the investors’ and managers’ aims are aligned. We are opposed to what we call “reckless aggressiveness”, which we feel has become too much the norm in the asset management industry, where a fund may post high returns one year and tout it as a major success, then fail to address the fact that their aggressiveness also led to losses during a greater number of years. While this has become the norm in the asset management industry, our fund values responsible investment and asset management. Rather than posting exorbitant returns, we aim to deliver consistent returns to our investors, ensuring long-term performance. Our goal at BlackVault Investments is simple: beat the market while protecting assets. This gives us the confidence to open our doors completely for investors to communicate with our investment professionals about asset performance at any given time.
           </p>
         </div>
       </div>
@@ -243,33 +199,7 @@
 
         <div class="col-md-12 mg-bt-80 athelas">
           <p>
-              We live in an ever-evolving world where markets are dynamic and expanding. Our
-            team emphasizes the concept of globalization and following business trends as it is
-            fundamental in our value-growth based approach. Most asset managers focus on very
-            specific and limited regions or sectors. We find this to be constrictive and amateur as
-            they often ignore market dynamics while also missing key opportunities in unexplored
-            fields. We, however, utilize our unique combination of sophisticated and proven arbitrage
-            strategies to expose market inefficiencies and access strategic, diverse, and global
-            opportunities.
-          </p>
-          <p>
-              Our strategy combines value and growth sectors and regions, packaging them
-            together in a risk-averse asset allocation to deliver consistent, long-term returns. We
-            consider top and bottom fundamental analytics as well as technical analytics to select
-            potential investments. Our process evaluates companies through two proven methods:
-            comparable companies and DCF. We utilize these metrics in tandem to both select
-            investments and determine entry and exit points. We not only analyze value
-            opportunities, but also growth opportunities. This unique blend gives us an advantage
-            over many other value or growth-driven managers as it allows us to remain more
-            diversified and more risk-averse.
-          </p>
-          <p>
-              The significance of employing this approach, particularly without the constraints of
-            silos or arbitrary limitations, is that we uncover an uncommon pool of opportunities,
-            which we believe has little overlap with other asset managers. We believe that our
-            investors are specifically drawn to our differentiated approach and portfolios. Over time,
-            this has given us the added advantage of a committed investor base that has allowed us
-            to see events through to their resolution.
+            We live in an ever-evolving world where markets are dynamic and expanding. Our team emphasizes the concept of globalization and following business trends as it is fundamental in our value-growth based approach. In addition, we pay close attention to market dynamics and look for key opportunities in unexplored fields. We utilize our unique combination of sophisticated and proven arbitrage strategies to expose market inefficiencies and access strategic, diverse, and global opportunities. Our strategy combines value and growth sectors and regions, packaging them together in a risk-averse asset allocation to deliver consistent, long-term returns. We consider top and bottom fundamental analytics as well as technical analytics to select potential investments. Our process evaluates companies through two proven methods: comparable companies and DCF. We utilize these metrics in tandem to both select investments and determine entry and exit points. We not only analyze value opportunities, but also growth opportunities. We believe this unique blend gives us an advantage over many other value or growth-driven managers as it allows us to remain more diversified and more risk-averse. The significance of employing this approach, particularly without the constraints of silos or arbitrary limitations, is that we uncover an uncommon pool of opportunities, which we believe has little overlap with other asset managers. We believe that investors are specifically drawn to our differentiated approach and portfolio.
           </p>
         </div>
       </div>

@@ -6,6 +6,8 @@ Blackvault::Application.routes.draw do
 
   post 'contact', to: 'pages#contact', as: :contact
   post 'careers', to: 'pages#careers', as: :careers
+
+  get 'disclaimer', to: 'pages#disclaimer', as: :disclaimer
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
