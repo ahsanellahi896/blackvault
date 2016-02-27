@@ -27,6 +27,49 @@ video {
   height: initial !important;
 }
 
+@media only screen and (max-width: 768px) {
+  #container {
+    width: 101%;
+  }
+
+  #sidebar {
+    background: none;
+  }
+
+  .navbar-toggle {
+    background: none !important;
+  }
+
+  a.navbar-brand {
+    display: none;
+  }
+
+  nav.navbar .navbar-collapse {
+    background: rgba(38, 41, 46, 0.7);
+  }
+
+  .home .slide-text {
+    bottom: 0 !important;
+    top: 8%
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  #home-slide {
+    height: 200px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  .social-icon li a {
+  width: 65px !important;
+  }
+}
+
 .athelas {
   font-family: Athelas !important;
 }
