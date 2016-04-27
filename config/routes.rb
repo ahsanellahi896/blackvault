@@ -2,12 +2,13 @@ Blackvault::Application.routes.draw do
 
   devise_for :users
 
-  root to: 'pages#home'
+  root to: 'pages#coming_soon'
 
   post 'contact', to: 'pages#contact', as: :contact
   post 'careers', to: 'pages#careers', as: :careers
 
   get 'disclaimer', to: 'pages#disclaimer', as: :disclaimer
+  get 'coming-soon', to: 'pages#coming_soon'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

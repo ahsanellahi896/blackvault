@@ -206,3 +206,22 @@ video {
 .ul-no-padding {
   padding: 0 !important;
 }
+
+body {
+  background-color: #1A1E22 !important;
+}
+
+#coming-soon .coming-soon-logo {
+  margin: 0 auto;
+  display: block;
+  width: 30%;
+}
+
+#coming-soon h2 {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  font-size: 65px;
+  color: #1395BA;
+}

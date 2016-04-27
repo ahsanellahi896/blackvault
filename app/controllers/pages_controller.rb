@@ -13,4 +13,6 @@ class PagesController < ApplicationController
     redirect_to root_path
   end
 
+  def coming_soon
+  end
 end
