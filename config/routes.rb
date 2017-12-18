@@ -2,7 +2,7 @@ Blackvault::Application.routes.draw do
 
   devise_for :users
 
-  root to: 'pages#coming_soon'
+  root to: 'pages#home'
 
   post 'contact', to: 'pages#contact', as: :contact
   post 'careers', to: 'pages#careers', as: :careers
